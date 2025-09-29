@@ -1,0 +1,64 @@
+# 🧠 Cybersecurity Roadmap Mind Map
+
+**Center:** The Ultimate Cybersecurity Roadmap for **Hamaidia Abd El Wadoud (n07eo)**
+
+---
+
+* **BRANCH 1: 🏗️ Phase 0: The Core Foundation (START HERE)**
+    * **SUB-BRANCH: 🌐 Networking Fundamentals**
+        * **Concepts:** OSI & TCP/IP Models, IP Addresses & Subnetting, DNS, HTTP/S, Common Ports.
+        * **Tools:** `ping`, `ipconfig`/`ifconfig`, `netstat`, Wireshark.
+    * **SUB-BRANCH: 💻 Operating System Fundamentals**
+        * **Linux:** CLI proficiency, File Permissions, User Management, Bash Scripting.
+            * *Distros: Kali, Parrot, Ubuntu.*
+        * **Windows:** PowerShell essentials, Active Directory basics, Registry, NTFS.
+    * **SUB-BRANCH: 🐍 Programming & Scripting**
+        * **Must-Have:** Python (for automation, exploits, analysis).
+        * **Essential:** Bash (Linux) / PowerShell (Windows).
+        * **Good to Have:** HTML/CSS/JS (for web app security).
+
+---
+
+* **BRANCH 2: 🗺️ Phase 1: Choose Your Path (Specializations)**
+    * **PATH A: 🛡️ Defensive Security (Blue Team)**
+        * **Roles:** SOC Analyst, Incident Responder, Threat Hunter.
+        * **Skills:** Threat Detection, Log Analysis, SIEM, Incident Response, Digital Forensics.
+        * **Tools:**
+            * *SIEM:* Splunk, ELK Stack.
+            * *Network:* Wireshark, Zeek.
+            * *Endpoint:* EDRs (CrowdStrike), Sysmon.
+            * *Forensics:* Autopsy, Volatility.
+        * **Certs:** Security+, CySA+, BTL1, GCIH.
+    * **PATH B: ⚔️ Offensive Security (Red Team)**
+        * **Roles:** Penetration Tester, Ethical Hacker, Red Team Operator.
+        * **Skills:** Reconnaissance, Vulnerability Analysis, Exploitation, Post-Exploitation, OWASP Top 10.
+        * **Tools:**
+            * *Frameworks:* Metasploit.
+            * *Scanners:* Nmap, Burp Suite.
+            * *Password Cracking:* John the Ripper, Hashcat.
+        * **Certs:** eJPT, PNPT, OSCP, GPEN.
+    * **PATH C: ☁️ Cloud Security**
+        * **Roles:** Cloud Security Engineer/Architect.
+        * **Skills:** AWS/Azure/GCP knowledge, IAM, Container Security (Docker, Kubernetes), IaC Security.
+        * **Tools:** AWS Security Hub, Azure Sentinel, Trivy, Clair.
+        * **Certs:** AWS Certified Security, AZ-500, CCSK.
+    * **PATH D: 💻 Application Security (AppSec)**
+        * **Roles:** AppSec Engineer, Product Security Engineer.
+        * **Skills:** Secure Coding, Threat Modeling, SAST (Static), DAST (Dynamic).
+        * **Tools:** Burp Suite, OWASP ZAP, SonarQube, Snyk.
+        * **Certs:** GWAPT, CASE.
+
+---
+
+* **BRANCH 3: 📈 Phase 2: Continuous Learning & Practice**
+    * **SUB-BRANCH: 🏠 Build a Home Lab**
+        * **Virtualization:** VMware, VirtualBox.
+        * **Goal:** A safe, isolated environment to practice and experiment.
+    * **SUB-BRANCH: 🎯 Practice, Practice, Practice!**
+        * **Online Platforms:** TryHackMe, Hack The Box.
+        * **CTFs:** picoCTF, CTFtime.
+        * **Vulnerable Apps:** Metasploitable, OWASP Juice Shop.
+    * **SUB-BRANCH: 📰 Stay Updated**
+        * **Action:** Follow security news, read blogs, listen to podcasts, join online communities.
+    * **SUB-BRANCH: 🤝 Contribute & Network**
+        * **Action:** Document your projects on GitHub, join local meetups, build a professional network.
